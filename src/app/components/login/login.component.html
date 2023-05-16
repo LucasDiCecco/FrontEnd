@@ -13,7 +13,7 @@
               <form #f="ngForm" (ngSubmit)="onLogin()" novalidate>
 
                 <div class="form-outline form-white mb-4">
-                  <input type="email" id="nombreUsuario" name="nombreUsuario" class="form-control form-control-lg"
+                  <input type="text" id="nombreUsuario" name="nombreUsuario" class="form-control form-control-lg"
                     [(ngModel)]="nombreUsuario" required />
                   <label class="form-label" for="nombreUsuario">Usuario</label>
                 </div>
@@ -30,11 +30,6 @@
 
               </form>
 
-            </div>
-
-            <div>
-              <p class="mb-0">¿No tienes una cuenta? <a href="#!" class="text-white-50 fw-bold">Sign Up</a>
-              </p>
             </div>
 
           </div>

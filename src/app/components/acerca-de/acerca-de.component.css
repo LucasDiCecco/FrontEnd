@@ -2,18 +2,20 @@
     padding: 20px;
 }
 div{
-    background-color: #8a2be2;
+    background-color: hsl(271, 76%, 53%);
     text-align: center;
+}
+h2{
+    font-size: 20px;
 }
 /*Estilo de la foto de perfil*/
 @media (min-width: 576px){
     #fotodeperfil{
-        position: absolute;
-        width: 15%;
+        width: 300px;
         border-radius: 100%;
-        box-shadow: 3px 3px 3px grey;
+        box-shadow: 3px 3px 3px rgb(0, 0, 0);
         left: 3%;
-        top:550px;
+        top:10%;
     }
 }
 @media (max-width: 575px){
@@ -21,9 +23,12 @@ div{
         position: absolute;
         width: 30%;
         border-radius: 100%;
-        box-shadow: 3px 3px 3px grey;
+        box-shadow: 3px 3px 3px rgb(0, 0, 0);
         left: 33%;
-        top:950px;
+        top:99%;
+    }
+    #nombre{
+        padding-top: 10px;
     }
 }
 
