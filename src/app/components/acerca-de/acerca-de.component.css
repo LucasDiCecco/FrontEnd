@@ -1,8 +1,9 @@
 .row{
     padding: 20px;
+    height: 100vh;
+    background: linear-gradient(270deg, #8a2be2 20%, #0000ff 100%);
 }
 div{
-    background-color: hsl(271, 76%, 53%);
     text-align: center;
 }
 h2{

@@ -1,15 +1,44 @@
 .container{
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: inline;
     position: fixed;
-    flex-direction: row-reverse;
+    right: 1rem;
+    top: 1rem;
+    max-width: 10rem;
+    border: 1px solid violet;
+    box-shadow: 1px 1px black;
+    cursor:pointer;
+    background: rgba(255, 165, 0, 0.2);
 }
-.redes{
-    margin-right: 0.5em;
+i{
+    color: white;
+    margin: 0 46%;
 }
-
+.menu{
+    display: none;
+    position: absolute;
+    overflow: auto;
+    width: 100%;
+    box-shadow: 0 8 16 0 rgba(0, 0, 0, 0.2);
+    left: 10px;
+}
+.container:hover .menu{
+    display: block;
+    border: 1px solid violet;
+    width: 100%;
+    left: 0px;
+    }
+.menu a{
+    display: block;
+    color: darkorange;
+    padding: 2px;
+    text-decoration: none;
+    text-align: center;
+    
+  }
+.menu a:hover{
+    color: darkorange;
+    background-color: black;
+}
 img{
     width: 50px;
 }

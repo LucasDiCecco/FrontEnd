@@ -1,7 +1,6 @@
 .row{
     padding: 20px;
-}
-div{
+    height: 100vh;
     background: #8a2be2;
 }
 h1, h3{

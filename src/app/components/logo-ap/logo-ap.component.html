@@ -1,9 +1,15 @@
 <div class="row">
     <div class="container">
-        
-        <div class="redes">
-            <a href="https://www.instagram.com/lucasdicecco"><img src="../../../assets/instagram.png" id="instagram"></a>
-            <a href="https://github.com/LucasDiCecco"><img src="../../../assets/github.png" id="github"></a>
+        <i class="bi bi-list"></i>
+        <div class="menu" *ngIf="!isLogged">
+            <a href="#acerca">Acerca de mí</a>
+            <a href="#experiencia">Experiencia laboral</a>
+            <a href="#educacion">Educacion</a>
+            <a href="#habilidad">Habilidades</a>
+            <a href="#proyecto">Proyectos realizados</a>
+            <a href="#contato">Contactos</a>
+            <a target="_blank" href="https://www.instagram.com/lucasdicecco"><img src="../../../assets/instagram.png" id="instagram"></a>
+            <a target="_blank" href="https://github.com/LucasDiCecco"><img src="../../../assets/github.png" id="github"></a>
             <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">INGRESO</button>
             <button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged">CERRAR SESION</button>
         </div>

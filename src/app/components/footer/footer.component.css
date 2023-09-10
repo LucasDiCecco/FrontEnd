@@ -2,10 +2,16 @@
     background: #8a2be2;
 }
 footer{
-    color: #8a2be2;
+    color: black;
     font-size: 14px;
     display: flex;
     flex-direction: column;
     text-align: center;
     box-shadow: 2px -2px 5px #999 ;
+}
+a{
+    width: auto;
+    position: absolute;
+    right: 5%;
+    color: orange;
 }
